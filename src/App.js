@@ -1,13 +1,12 @@
+import { Content, Footer, Header } from './func-components';
 import logo from './logo.svg';
-import './App.css';
-import './style.css'
+
 
 function App() {
   return(
-    <>
-      <h2>DevoloperThai.com</h2>
-      <div className='title'>React & React Native </div>
-    </>
+    [<Header/>,<Content/>,<Footer/>]
+    
+    
   )
 }
 
