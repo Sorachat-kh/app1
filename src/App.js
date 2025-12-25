@@ -3,10 +3,10 @@ import './App.css';
 import './style.css'
 
 function App() {
-  (
+  return(
     <>
       <h2>DevoloperThai.com</h2>
-      <div className='.title'>React & React Native </div>
+      <div className='title'>React & React Native </div>
     </>
   )
 }
