@@ -7,10 +7,11 @@ import logo from './logo.svg';
 import RefsArray from './refs-array';
 import RefsFunc from './refs-func';
 import React from 'react';
+import MessageBox from './state-func';
 
 
 function App() {
-  return <RefsArray/>
+  return <MessageBox/>
 }
 
 export default App;
