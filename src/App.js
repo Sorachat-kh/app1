@@ -1,17 +1,10 @@
-import { Calculator2 } from './calculator';
-import Button from './class-components';
-import Calendar from './class-components';
-import { EventData2 } from './event-data';
-import { Content, Footer, Header } from './func-components';
-import logo from './logo.svg';
-import RefsArray from './refs-array';
-import RefsFunc from './refs-func';
-import React from 'react';
-import MessageBox from './state-func';
-
-
-function App() {
-  return <MessageBox/>
+import React from 'react'
+import { userContext } from './context'
+import Content from './context-content'
+export default function App() {
+  return (
+    <userContext.Provider value={'Tom Jerry'}>
+    <Content/>
+    </userContext.Provider>
+  )
 }
-
-export default App;
